@@ -1,0 +1,82 @@
+body {
+	margin: 0;
+}
+
+#body {
+  margin: 0;
+}
+
+canvas {
+	display: block;
+	margin: auto;
+}
+
+#field {
+  position: relative;
+	height: 700px;
+	background-image: url(field.png);
+}
+
+#road {
+  position: absolute;
+  top: 320px;
+  left: 100px;
+  width: 1000px;
+  height: 50px;
+  margin: 0 auto;
+  background-image: url(road.png);
+  border: 3px solid #8B4513;
+}
+
+#castle {
+  position: absolute;
+  top: 150px;
+  left: 1000px;
+  width: 250px;
+  height: 250px;
+  background-image: url(castle.png);
+  z-index: 1;
+}
+
+.tower_zone { 
+  position: absolute;
+  top: 150px;
+  left: 800px;
+  width: 150px;
+  height: 150px;
+  background-image: url(tower_zone.png);
+  border-radius: 50%;
+}
+
+.tower {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  width: 150px;
+  height: 150px;
+  background-image: url(tower.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 1;
+}
+
+
+.viking {
+  position: absolute;  
+  top: 270px;
+  left: 100px;
+  height: 100px;
+  width: 100px;
+  background-image: url(viking.png);
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+
+.core {
+  position: absolute;  
+  height: 20px;
+  width: 20px;
+  background-color: #252828;
+  border-radius: 50%;
+  z-index: 3;
+}
